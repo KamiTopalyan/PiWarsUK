@@ -32,3 +32,5 @@ class OpencvController:
         result = np.where(mask==255, img, gray)
 
         return result
+    
+    
